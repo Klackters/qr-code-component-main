@@ -4,7 +4,7 @@ const logo = require("../images/image-qr-code.png")
 export default function QRCode() {
   return(
     <section className="bg-sky-100 h-screen w-full flex place-content-center">
-      <div className="bg-white flex flex-col text-center h-auto self-center rounded-xl shadow-2xl">
+      <div className="bg-white flex flex-col flex-wrap text-center h-auto self-center rounded-xl shadow-2xl p-1">
         <div className="flex w-80 h-fit m-4">
           <img src={logo} alt="QRCode" className="rounded-xl" />
         </div>
